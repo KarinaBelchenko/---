@@ -43,14 +43,15 @@ print(len(result_set))'''
 #9
 
 
-n = int( input( 'колличество кустов = ' ) )
-lis = [ int(x) for x in input( '-> ' ).split() ]
-n = len(lis)
-lis = lis + lis[:2]
-ma = 0
+n = int(input('Введите колличество кустов = '))
+list1 = [int(input()) for i in range(n)]
+#lis = [ int(x) for x in input().split() ]
+n = len(list1)
+lis = list1 + list1[:2]
+sum = 0
 for i in range(n):
-    ma = max( ma, lis[i] + lis[i+1] + lis[i+2] )
-print(ma)
+    sum = max(sum, lis[i] + lis[i+1] + lis[i+2])
+print(sum)
 
 
 '''import re
