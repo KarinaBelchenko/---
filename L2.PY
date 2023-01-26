@@ -27,6 +27,6 @@ for i in range(n):
 '''n = int(input())
 i = 1
 while i <= n:
-    print(i, end = ' ')
+    print()
     i = i * 2'''
 

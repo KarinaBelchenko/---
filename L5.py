@@ -2,10 +2,6 @@
 #A = 3; B = 5 -> 243 (3⁵)
 #A = 2; B = 3 -> 8
 
-
-x = int(input('Введите первое число А: '))
-n = int(input('Введите второе число В: '))
-
 def power(x, n):
     if n == 0:
         return 1
@@ -16,8 +12,9 @@ def power(x, n):
     else:
         return power(x, n - 1) * x
 
-#x = int(input())
-#n = int(input())
+x = int(input('Введите первое число А: '))
+n = int(input('Введите второе число В: '))
+
 print('Результат: ', power(x, n))
 
 

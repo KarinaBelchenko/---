@@ -16,7 +16,6 @@ for s in input().split():
 print(len(result_set))'''
 	
 
-
 #for elem in A:
     #print(elem, end=' ')
 
@@ -43,38 +42,16 @@ print(len(result_set))'''
 #9
 
 
-n = int(input('Введите колличество кустов = '))
+'''n = int(input('Введите колличество кустов = '))
 list1 = [int(input()) for i in range(n)]
-#lis = [ int(x) for x in input().split() ]
 n = len(list1)
 lis = list1 + list1[:2]
 sum = 0
 for i in range(n):
     sum = max(sum, lis[i] + lis[i+1] + lis[i+2])
-print(sum)
+print(sum)'''
 
 
-'''import re
-def isCyrillic(text):
-	return bool(re.search('[а-яА-Я]', text))
-points_en = {1:'AEIOULNSTR',
-      	2:'DG',
-      	3:'BCMP',
-      	4:'FHVWY',
-      	5:'K',
-      	8:'JZ',
-      	10:'QZ'}
-points_ru = {1:'АВЕИНОРСТ',
-      	2:'ДКЛМПУ',
-      	3:'БГЁЬЯ',
-      	4:'ЙЫ',
-      	5:'ЖЗХЦЧ',
-      	8:'ШЭЮ',
-      	10:'ФЩЪ'}
-text = input().upper()
-if isCyrillic(text):
-	print(sum([k for i in text for k, v in points_ru.items() if i in v]))
-else:
-	print(sum([k for i in text for k, v in points_en.items() if i in v]))'''
+
 
 
