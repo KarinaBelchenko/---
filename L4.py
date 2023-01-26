@@ -8,28 +8,7 @@
 
 #6 12
 
-'''N = input('Ввести кол-во элементов первого множества:').split()
-M = input('Ввести кол-во элементов второго множества:').split()
-result_set = set ()
-for s in input().split():
-	result_set = set.add(i)
-print(len(result_set))'''
-	
 
-#for elem in A:
-    #print(elem, end=' ')
-
-
-#k = int(input('Заданное число:'))
-#m = abs(k - list1[0])
-#number = list1[0] 
-
-#for i in range(1, len(list1)):
-#	if m > abs(k - list1[i]):
-		#m = abs(k - list1[i])
-		#number = list1[i]
-
-#print(number)'''
 
 
 #Задача 24: В фермерском хозяйстве в Карелии выращивают чернику. Она растет на круглой грядке, причем кусты высажены только по окружности. 
